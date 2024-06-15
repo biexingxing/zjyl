@@ -1037,6 +1037,31 @@ section {
   color: #fff;
 }
 
+.logo{
+  position: absolute; 
+  max-width: 158px;
+  height: auto; 
+  top: -1px;
+}
+
+.contact-info-container{
+  justify-content: space-around !important;
+}
+.fixed-top .logo {
+  top: -38px;
+}
+
+@media (max-width: 769px) {
+  .contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+
+
 @media (min-width: 769px) {
   #call-to-action .cta-btn-container {
     display: flex;
