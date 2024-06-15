@@ -330,7 +330,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(8, 30, 91, 0.9);
+  background: #03AABE;
   transition: 0.3s;
   z-index: 999;
 }
@@ -1031,7 +1031,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #081e5b;
+  background: #03AABE;
   background-size: cover;
   padding: 40px 0;
 }
