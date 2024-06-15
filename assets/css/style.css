@@ -167,7 +167,16 @@ h6 {
   }
 
   #header #logo img {
-    max-height: 40px;
+    max-height: 85px;
+    top: 25px;
+  }
+
+  .fixed-top img {
+    top: -12px !important;
+  }
+
+  #header .logo img {
+    top: 25px;
   }
 }
 
